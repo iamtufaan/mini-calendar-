@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: blueviolet;
+    text-transform: uppercase;
+    text-align: center;
+}
+.time{
+    /* background-color: red; */
+    width: 250px;
+    /* height: 40px; */
+    font-size: 3vw;
+    margin-bottom: 1vw;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    box-shadow: 0 2px 8px rgba(0,0,0,.3);
+}
+.container{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+    overflow: hidden;
+    width: 300px;
+}
+.month{
+    background-color: orangered;
+    margin: 0;
+    width: 100%;
+    font-size: 3vw;
+    font-weight: 800;
+    padding: 1vw;
+    color: white;
+}
+.day{
+    font-weight: 900;
+    font-size: 2vw;
+    padding: 1vw;
+    color: darkgray;
+}
+.date{
+    font-size: 8vw;
+    font-weight: 900;
+    padding: 1vw;
+}
+.year{
+    font-size: 1.3vw;
+    font-weight: 800;
+    /* background-color: yellow; */
+    padding: 1vw;
+    color: red;
+}
